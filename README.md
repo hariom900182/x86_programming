@@ -7,7 +7,7 @@ Operating system: Linux
 
 steps to run program(x64 machine)
 1. Compile: nasm -f elf <asmfile.asm>
-2. Load: ld -m elf_i386 asmfile.o -o <asmname>
-3. Run:  ./<asmname>
+2. Load: ld -m elf_i386 asmfile.o -o filename
+3. Run:  ./filename
 
 
